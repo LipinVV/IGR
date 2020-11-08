@@ -1,0 +1,20 @@
+.header {
+  background-color: $main-color;
+
+}
+
+.header__logo {
+  width: 180px;
+  height: 180px;
+  background-color: $logo-bg;
+  border-radius: 50%;
+}
+
+.header__wrapper {
+  width: 1265px;
+  padding: 0 85px;
+  margin: 0 auto;
+  @include border(red);
+  display: flex;
+  justify-content: space-between;
+}
