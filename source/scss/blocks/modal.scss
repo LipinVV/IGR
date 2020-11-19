@@ -1,0 +1,25 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-close {
+    display: none;
+}
+
+.modal-open {
+    display: flex;
+}
+
+.modal-content {
+    color: $hover-links;
+    background-color: $main-text;
+    width: 300px;
+    border-radius: 15px;
+    padding: 30px;
+}

@@ -68,31 +68,32 @@
       
           <ul class="feedback-data__list">
             <li class="feedback-data__item">
-              <label class="feedback-data__label-surname" for="name">Your Name</label>
-              <input class="feedback-data__input-surname" type="text" id="name" name="name" placeholder="Oleg *"
+              <label class="feedback-data__label-surname" for="name"></label>
+              <input class="feedback-data__input-surname" type="text" id="name" name="name" placeholder="Your Name *"
                 required>
             </li>
             <li class="feedback-data__item">
-              <label class="feedback-data__label-name" for="company">Company</label>
+              <label class="feedback-data__label-name" for="company"></label>
               <input class="feedback-data__input-name" type="text" id="company" name="company" placeholder="Company *"
                 required>
             </li>
             <li class="feedback-data__item">
-              <label class="feedback-data__label-email" for="email">E-mail address</label>
+              <label class="feedback-data__label-email" for="email"></label>
               <input class="feedback-data__input-email" type="email" id="email" name="email"
-                placeholder="Oleg@fckedyou.com *" required>
+                placeholder="E-mail address *" required>
             </li>
             <li class="feedback-data__item">
-              <label class="feedback-data__label-phone" for="phone">Phone number</label>
+              <label class="feedback-data__label-phone" for="phone"></label>
               <input class="feedback-data__input-phone" type="tel" id="phone" name="phone"
-                placeholder="+(code)-xxx-xx-xx">
+                placeholder="Your phone number">
             </li>
             <li class="feedback-data__item">
-              <label class="feedback-data__legend-text">Comments</label>
+              <label class="feedback-data__legend-text"></label>
               <textarea class="feedback-data__textarea feedback-data__input-message" name="message"
-                placeholder="Fck fck fck fck fck"></textarea>
+                placeholder="Brief description"></textarea>
             </li>
             <li class="feedback-data__item">
+              <p>Attach a job spec </p>
               <input type="file" id="actual-btn" hidden>
               <label class="file__upload" for="actual-btn">choose a file</label>
             </li>
@@ -101,7 +102,10 @@
             <button class="feedback-data__button" type="submit">Submit a Vacancy</button>
             <p class="feedback-data__notification">* required</p>
           </div>
-     
+          <div class="feedback-data__law">
+            By clicking “Submit a Vacancy” button you agree to our 
+            <button type="button" class="feedback-data__law button-open">Privacy Policy</button>
+          </div>
         </fieldset>
   
       </form>
@@ -129,6 +133,20 @@
     </div>
   </footer>
 
+
+  <div class="modal modal-close">
+      <div class="modal-content">
+          <h2>Federal Law 152</h2>
+          <p>
+              LAWS BRINGS FEAR
+          </p>
+          <button class="button-close">Decline
+          </button>
+          <button class="button-close">Agree
+          </button>
+      </div>
+  </div>
+<script src="js/script.js"></script>
 </body>
 
 </html>
