@@ -2,7 +2,8 @@
     width: 280px;
     padding: 0;
     margin: 0;
-    border: 1px solid #FFF;
+    border: 5px solid pink;
+    border-radius: 25px;
 }
 
 .feedback-data__list {
@@ -99,5 +100,9 @@
     background-color: $main-color;
 }
 
-
+.feedback-data__input-surname {
+    border: 3px #fff;
+    border-radius: 25px;
+    padding-left: 20px;
+}
 

@@ -60,12 +60,13 @@
 
   <main class="content">
     <div class="container">
-      <form class="feedback" action="https://echo.htmlacademy.ru/" method="post">
-     
-        <h1 class="feedback-header">Please let us know more about yourself and persons you would like to hire and we back to you within 12 hours
+      <form enctype="multipart/form-data" method="POST" class="feedback" action="https://echo.htmlacademy.ru/">
+
+        <h1 class="feedback-header">Please let us know more about yourself and persons you would like to hire and we
+          back to you within 12 hours
         </h1>
         <fieldset class="feedback-data__fieldset feedback-data__fieldset-feedback">
-      
+
           <ul class="feedback-data__list">
             <li class="feedback-data__item">
               <label class="feedback-data__label-surname" for="name"></label>
@@ -93,21 +94,24 @@
                 placeholder="Brief description"></textarea>
             </li>
             <li class="feedback-data__item">
-              <p>Attach a job spec </p>
-              <input type="file" id="actual-btn" hidden>
+              <p>Attach a job spec</p>
+              <input type="file" id="actual-btn" name="file" hidden>
               <label class="file__upload" for="actual-btn">choose a file</label>
             </li>
           </ul>
           <div class="feedback-data__submit">
             <button class="feedback-data__button" type="submit">Submit a Vacancy</button>
-            <p class="feedback-data__notification">* required</p>
+            <p class="feedback-data__notification"></p>
           </div>
           <div class="feedback-data__law">
-            By clicking “Submit a Vacancy” button you agree to our 
+            By clicking "Submit a Vacancy" button you agree to our
             <button type="button" class="feedback-data__law button-open">Privacy Policy</button>
           </div>
         </fieldset>
-  
+
+        
+
+
       </form>
     </div>
 
@@ -135,18 +139,16 @@
 
 
   <div class="modal modal-close">
-      <div class="modal-content">
-          <h2>Federal Law 152</h2>
-          <p>
-              LAWS BRINGS FEAR
-          </p>
-          <button class="button-close">Decline
-          </button>
-          <button class="button-close">Agree
-          </button>
-      </div>
+    <div class="modal-content">
+      <h2>Federal Law 152</h2>
+      <p>
+        Your Sheriff
+      </p>
+      <button class="button-close">Close
+      </button>
+    </div>
   </div>
-<script src="js/script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

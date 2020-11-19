@@ -17,9 +17,14 @@
 }
 
 .modal-content {
-    color: $hover-links;
+    color: red;
     background-color: $main-text;
     width: 300px;
     border-radius: 15px;
     padding: 30px;
+    font-size: large;
+    background-image: url("../img/hehehe.jpeg");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
 }
