@@ -1,6 +1,7 @@
 .main-navigation {
     @media (min-width: 320px) {
         display: none;
+        width: 100%;
     }
 
     @media (min-width: 1200px) {
@@ -9,6 +10,10 @@
         width: 70%;
         height: 50px;
     }
+}
+
+.main-navigation.active {
+  display: flex;
 }
 
 .main-navigation__menu {
@@ -23,12 +28,32 @@
     padding: 0;
     position: relative;
 }
+
+.main-navigation__menu.active {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 650px;
+  width: 100%;
+  background-color: $main-color;
+}
 // re-check the code below
 .main-navigation__link{
+  @media (min-width: 320px) {
+    color: $reference-color;
+    font-size: 28px;
+    &:hover {
+      color: orangered;
+    }
+  }
+
+
+  @media (min-width: 1200px) {
     position: relative;
       display: block;
       padding: 4px 0;
-      font-family: Lato, sans-serif;
       color: $main-text;
       text-decoration: none;
       text-transform: uppercase;
@@ -56,4 +81,49 @@
         transform: scaleX(1);
         transform-origin: left;
       }
+    }
+}
+
+.main-navigation__item {
+  @media (min-width: 320px) {
+    padding-top: 50px;
+    height: 100px;
+  }
+}
+
+.hoho{
+  cursor: pointer;
+  height: 100%;
+}
+
+.hoho path{
+  stroke-width: 15;
+  stroke-linecap: round;
+  stroke: $main-text;
+  fill: none;
+  transition: all 1s ease-in-out;
+}
+
+/* In menu form */
+
+.top_bar,
+.bottom_bar{
+  stroke-dasharray: 240px 910px;
+}
+
+.middle_bar{
+  stroke-dasharray: 240px 240px;
+}
+
+/* In cross form */
+
+.open .top_bar,
+.open .bottom_bar{
+  stroke-dashoffset: -650px;
+  stroke: red;
+}
+
+.open .middle_bar{
+  stroke-dasharray: 0px 220px;
+  stroke-dashoffset: -120px;
 }

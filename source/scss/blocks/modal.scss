@@ -28,3 +28,20 @@
     background-position: right;
     background-repeat: no-repeat;
 }
+
+// SVG <
+.fil5 {fill:none}
+.fil0 {fill:blue}
+.fil0:hover{fill:red}
+.fil4 {fill:#1C1C1C}
+.fil1 {fill:blue;fill-rule:nonzero}
+.fil1:hover {fill:yellow}
+.fil2 {fill:#1C1C1C;fill-rule:nonzero}
+.fil2:hover {fill:palevioletred}
+.fil3 {fill:#5C5C5C;fill-rule:nonzero}
+.fil3:hover {fill:#fff}
+
+.svg {
+    width: 60%;
+}
+
