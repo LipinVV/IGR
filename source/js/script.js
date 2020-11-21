@@ -8,9 +8,9 @@ const svg = document.getElementById("burger-svg");
 
 
 btn.addEventListener("click", () => {
-    nav.classList.toggle("active");
-    btn.classList.toggle("active");
-    menu.classList.toggle("active");
+    nav.classList.toggle("main-navigation--active");
+    btn.classList.toggle(".header-logo__button--active");
+    menu.classList.toggle("main-navigation__menu--active");
     svg.classList.toggle("open");
 });
 
