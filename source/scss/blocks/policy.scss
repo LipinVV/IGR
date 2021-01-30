@@ -1,0 +1,31 @@
+.policy {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.policy__mainheader{
+    color: $heading-color;
+}
+
+.policy__list {
+    color: $main-text;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.policy__item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    color: $text-color;
+    text-align: justify;
+}
+
+.policy__paragraph{
+
+}
+
+.policy__header {
+
+    color: $policy-header;
+}

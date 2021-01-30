@@ -6,19 +6,33 @@ $reference-color: #000;
 $header-color: #fff;
 $logo-bg: #d5d6d6;
 $hover-links: #3498db;
+$policy-header: #0D59B3;
 
 // SVG <
 .fil5 {fill:none}
 .fil0 {fill:blue}
-.fil0:hover{fill:red}
+.fil0:hover{fill:white}
 .fil4 {fill:#1C1C1C}
 .fil1 {fill:blue;fill-rule:nonzero}
-.fil1:hover {fill:yellow}
+.fil1:hover {fill:white}
 .fil2 {fill:#1C1C1C;fill-rule:nonzero}
-.fil2:hover {fill:palevioletred}
+.fil2:hover {fill:white}
 .fil3 {fill:#5C5C5C;fill-rule:nonzero}
 .fil3:hover {fill:#fff}
+// MAP
+.fil22 {fill:#0D59B3}
+.fil00 {fill:#5C5C5C}
+.fil11 {fill:whitesmoke}
+.fil33 {fill:#E77817;fill-rule:nonzero}
 
 .svg {
-    width: 60%;
+    width: 100%;
+}
+
+.hoho:hover path {
+    stroke: white;
+}
+
+.hoho:active path {
+    stroke: darkviolet;
 }
