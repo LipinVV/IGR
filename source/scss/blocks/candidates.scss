@@ -1,0 +1,21 @@
+.candidates__info {
+    padding-bottom: 40px;
+}
+
+.candidates__header {
+    text-transform: uppercase;
+    color: $policy-header;
+}
+
+.candidates__paragraphs {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+.candidates__paragraph {
+    padding-bottom: 10px;
+}

@@ -1,0 +1,57 @@
+.clients__info {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 40px;
+
+    @media (min-width: 1200px) {
+        flex-direction: row;
+    }
+}
+
+.clients__header {
+    width: 100%;
+    color: $policy-header;
+    text-transform: uppercase;
+    order: -1;
+}
+
+.clients__paragraphs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+
+    @media (min-width: 1200px) {
+        width: 45%;
+        padding-right: 20px;
+    }
+}
+
+.clients__paragraph {
+    text-indent: 20px;
+}
+
+.clients__map {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: -80px;
+    margin-bottom: -50px;
+    order: -1;
+
+    @media (min-width: 1200px) {
+        width: 45%;
+        margin-top: -80px;
+        margin-bottom: 0;
+        order: 0;
+    }
+}
+

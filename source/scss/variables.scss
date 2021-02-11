@@ -20,10 +20,23 @@ $policy-header: #0D59B3;
 .fil3 {fill:#5C5C5C;fill-rule:nonzero}
 .fil3:hover {fill:#fff}
 // MAP
-.fil22 {fill:#0D59B3}
+.map2 {fill:#0D59B3}
+.map2:hover {fill:red}
+.map0 {fill:#737373}
+.map0:hover {fill:red}
+.map1 {fill:white} // главная простыня
+.map4 {fill:#1F1A17;fill-rule:nonzero}
+.map4:hover {fill: red}
+.map3 {fill:#333332;fill-rule:nonzero}
+.map3:hover {fill:#0D59B3}
+
+
+.fil22 {fill: $policy-header}
 .fil00 {fill:#5C5C5C}
 .fil11 {fill:whitesmoke}
-.fil33 {fill:#E77817;fill-rule:nonzero}
+.fil33 {fill: $reference-color;fill-rule:nonzero}
+
+// .map3:hover{fill: red}
 
 .svg {
     width: 100%;

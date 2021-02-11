@@ -1,9 +1,12 @@
 .feedback-data__fieldset-feedback {
-    width: 100%;
+    min-width: 310px;
     padding: 0;
     margin: 0;
-    border: 5px solid pink;
-    border-radius: 25px;
+    border: none;
+
+    @media (min-width: 1200px) {
+        border: none;
+    }
 }
 
 .feedback-data__list {
@@ -30,21 +33,28 @@
 
     & p {
         margin: 0;
-        color: $hover-links;
+        color: $reference-color;
     }
 }
 
-.feedback-data__item:nth-child(6) {
+.feedback-data__item--attach {
     align-items: center;
     padding-bottom: 20px;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+
+    @media (min-width: 1200px) {
+        padding-left: 175px;
+        padding-right: 175px;
+    }
 }
 
 .feedback-data__item input{
   width: 80%;
   background-color: $hover-links;
   font-size: 16px;
-  color: blue;
+  color: black;
 }
 
 .feedback-data__item textarea{
@@ -52,7 +62,7 @@
     min-height: 60px;
     background-color: $hover-links;
     font-size: 16px;
-    color: blue;
+    color: black;
   }
 
 
@@ -69,7 +79,7 @@
     color: $text-color;
     margin: 0;
     font-size: 16px;
-    color: $hover-links;
+    color: $policy-header;
 }
 
 .feedback-data__button {
@@ -81,10 +91,11 @@
     display: block;
     background-color: $main-text;
     margin: 0 auto;
-    color: $hover-links;
+    color: $policy-header;
 }
 
 .feedback-header {
+    width: 100%;
     font-size: 20px;
     margin: 0;
     padding-bottom: 10px;
@@ -100,9 +111,41 @@
     background-color: $main-color;
 }
 
-.feedback-data__input-surname {
-    border: 3px #fff;
+.feedback-data__input-name {
     border-radius: 25px;
+    border-radius: 5px;
+    border: 1px solid $reference-color;
     padding-left: 20px;
 }
 
+.feedback-data__input-name {
+    padding-left: 20px;
+    border: 1px solid $reference-color;
+    border-radius: 5px;
+}
+
+.feedback-data__input-email {
+    padding-left: 20px;
+    border: 1px solid $reference-color;
+    border-radius: 5px;
+}
+
+.feedback-data__input-phone  {
+    padding-left: 20px;
+    border: 1px solid $reference-color;
+    border-radius: 5px;
+}
+
+.feedback-data__input-message {
+    padding-left: 20px;
+    border: 1px solid $reference-color;
+    border-radius: 5px;
+}
+
+.feedback-data__law--link {
+    color: red;
+}
+
+.feedback-data__law--link:visited {
+    text-decoration: none;
+}

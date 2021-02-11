@@ -14,18 +14,29 @@ btn.addEventListener("click", () => {
     svg.classList.toggle("open");
 });
 
-// // modal window 
-let openButton = document.querySelector('.button-open'); 
-let closeButton = document.querySelector('.button-close'); 
-let modal = document.querySelector('.modal'); 
+// // // modal window 
+// let openButton = document.querySelector('.button-open'); 
+// let closeButton = document.querySelector('.button-close'); 
+// let modal = document.querySelector('.modal'); 
 
-let modalHandler = function() {
-    modal.classList.toggle('modal-close');
-    modal.classList.toggle('modal-open');
-};
+// let modalHandler = function() {
+//     modal.classList.toggle('modal-close');
+//     modal.classList.toggle('modal-open');
+// };
 
-openButton.onclick = modalHandler;
-closeButton.onclick = modalHandler;
+// openButton.onclick = modalHandler;
+// closeButton.onclick = modalHandler;
 
  
 
+{/* <div class="modal modal-close">
+<div class="modal-content">
+  <h2>Federal Law 152</h2>
+  <p>
+    Your Sheriff
+  </p>
+  <button class="button-close">Close
+  </button>
+</div>
+</div>
+<script src="js/script.js"></script> */}
