@@ -3,5 +3,21 @@
 }
 
 .contacts__info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  min-height: 700px;
   color: $reference-color;
+}
+
+.contacts__info li {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.contacts__info ul {
+  list-style: none;
 }

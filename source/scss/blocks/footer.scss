@@ -59,3 +59,8 @@ footer li a {
     text-decoration: none;
     justify-content: center;
 }
+
+// dorabotat
+.links__item--active:hover {
+    color: $policy-header;
+}

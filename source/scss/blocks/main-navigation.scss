@@ -51,6 +51,7 @@
   @media (min-width: 320px) {
     color: $reference-color;
     font-size: 22px;
+    font-weight: bold;
     &:hover {
       color: white;
     }
@@ -60,11 +61,10 @@
     position: relative;
     display: block;
     padding: 4px 0;
-    color: $main-text;
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.5s;
-    color: $main-text;
+    color: $reference-color;
     font-size: 16px;
 
     &::after {
@@ -81,7 +81,7 @@
     }
 
     &:hover {
-      color: $reference-color;
+      color: $main-text;
     }
 
     &:hover::after {

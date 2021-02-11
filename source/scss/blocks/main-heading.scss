@@ -1,4 +1,9 @@
 .main-heading{
     text-align: center;
-    color: $main-text;
+    color: $reference-color;
+}
+
+.main-heading--h3 {
+    margin-top: 0;
+    padding-bottom: 40px;
 }
